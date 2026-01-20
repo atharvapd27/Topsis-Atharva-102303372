@@ -15,9 +15,9 @@ app.secret_key = "supersecretkey"
 
 # --- CREDENTIALS ---
 # Set these in Vercel Environment Variables for security
-SENDER_EMAIL = os.environ.get("atharvapandey100@gmail.com")
-SENDER_PASSWORD = os.environ.get("azlp blsr czrx lhrp")
-
+# --- CREDENTIALS ---
+SENDER_EMAIL = "atharvapandey100@gmail.com"      # <--- Type your actual email here
+SENDER_PASSWORD = "azlp blsr czrx lhrp"  # <--- Type your actual app password here
 def calculate_topsis_lite(file_obj, filename, weights, impacts):
     try:
         data_rows = []
