@@ -39,3 +39,15 @@ The alternative closest to the ideal best and farthest from the ideal worst is r
 4. Use the following command to install this package:
    ```bash
    pip install Topsis-Atharva-102303372
+
+## Usage
+
+Run the following command in the command prompt:
+
+```bash
+topsis <inputFile> <weights> <impacts> <outputFile>
+```
+Example:
+```bash
+topsis sample.csv "1,1,1,1" "+,+,-,+" result.csv
+
