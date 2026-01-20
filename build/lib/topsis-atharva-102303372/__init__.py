@@ -1,0 +1,1 @@
+from .topsis import topsis
